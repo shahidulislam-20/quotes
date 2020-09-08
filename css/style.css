@@ -1,0 +1,432 @@
+html {
+  scroll-behavior: smooth; }
+
+.navbar button {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-weight: 700; }
+
+.navbar span::before,
+.navbar span::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: #000; }
+
+.navbar span::after {
+  margin-top: 2px; }
+
+.navbar h4 {
+  font-weight: 700;
+  background: #000;
+  padding: 10px; }
+
+.navbar .nav-link {
+  color: #000 !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all .2s; }
+
+.navbar .nav-item:hover .nav-link {
+  color: #ffddd5 !important; }
+
+#myCarousel {
+  margin-top: -90px; }
+  #myCarousel .carousel-img-1 {
+    min-height: 110vh;
+    background: url("../assets/bg1.png");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #myCarousel .carousel-caption {
+    margin-bottom: 250px; }
+    #myCarousel .carousel-caption h1 {
+      font-size: 200px;
+      font-weight: 100; }
+    #myCarousel .carousel-caption h2 {
+      font-size: 56px;
+      margin-top: -30px !important; }
+  #myCarousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    opacity: 1;
+    margin: 0 7px; }
+  #myCarousel .active {
+    background-color: #fff !important; }
+  #myCarousel .carousel-indicators {
+    bottom: 90px; }
+
+#template p {
+  margin: 0;
+  margin-top: 35px;
+  color: #000;
+  text-align: justify; }
+
+#template h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #000;
+  font-weight: 700;
+  font-size: 45px; }
+
+#template h1 {
+  margin: 0; }
+
+#template span::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100px;
+  background: rgba(0, 0, 0, 0.4);
+  margin: 0 auto;
+  margin-top: 35px; }
+
+#content {
+  background: #ffddd5; }
+  #content .carousel-item {
+    background: url("../assets/bg2.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    min-height: 500px;
+    max-width: 100%; }
+  #content .carousel-caption {
+    right: 60%;
+    bottom: 80px;
+    left: 5%;
+    text-align: left; }
+    #content .carousel-caption h4 {
+      font-size: 30px;
+      font-weight: 700; }
+    #content .carousel-caption p {
+      font-size: 28px; }
+  #content .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    opacity: 1;
+    margin: 0 7px; }
+  #content .carousel-indicators {
+    right: 10%;
+    justify-content: left;
+    margin-left: 5%;
+    bottom: 10%; }
+    #content .carousel-indicators .active {
+      background-color: rgba(0, 0, 0, 0.4) !important; }
+
+#happy .reason-btn {
+  border: 2px solid #000;
+  color: #000 !important;
+  text-decoration: none;
+  padding: 10px 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: 3px; }
+
+#happy h2 {
+  font-weight: 700;
+  color: #000 !important;
+  font-size: 45px !important; }
+
+#happy h2::after {
+  content: "";
+  display: block;
+  background: #000;
+  height: 2px;
+  width: 65px;
+  margin-top: 20px; }
+
+#happy .col-md-6 {
+  border: 1px solid rgba(0, 0, 0, 0.1); }
+  #happy .col-md-6 .happy-info {
+    padding: 25px 15px; }
+    #happy .col-md-6 .happy-info h3 {
+      color: #000;
+      font-weight: 700; }
+    #happy .col-md-6 .happy-info p {
+      color: #000; }
+  #happy .col-md-6 i {
+    color: rgba(0, 0, 0, 0.4); }
+
+#happy .col-md-6:nth-child(3),
+#happy .col-md-6:nth-child(4) {
+  border-top: none; }
+
+#happy .col-md-6:nth-child(1),
+#happy .col-md-6:nth-child(3) {
+  border-right: none; }
+
+#quote {
+  min-height: 500px;
+  position: relative; }
+  #quote .quote-bg {
+    background: url("../assets/bg3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 500px; }
+  #quote .q-info {
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 13%; }
+    #quote .q-info h2 {
+      font-weight: 600;
+      font-size: 45px; }
+    #quote .q-info a {
+      color: #fff;
+      text-decoration: underline; }
+  #quote .light-overlay {
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+
+#poster h1 {
+  font-weight: 700;
+  padding-left: 6%; }
+
+#poster h1::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 60px;
+  background: #000;
+  margin-top: 20px; }
+
+#poster .reason-btn {
+  border: 2px solid #000;
+  color: #000 !important;
+  text-decoration: none;
+  padding: 10px 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: 3px; }
+
+#poster .image {
+  position: relative; }
+  #poster .image .p-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2); }
+    #poster .image .p-overlay .d-flex {
+      cursor: pointer;
+      margin-top: 14%;
+      opacity: 0;
+      transition: all .5s ease-in-out; }
+      #poster .image .p-overlay .d-flex h4 {
+        font-size: 18px;
+        color: #fff;
+        padding: 0;
+        letter-spacing: 3px; }
+      #poster .image .p-overlay .d-flex h5 {
+        color: #fff;
+        display: inline-block;
+        font-weight: 700;
+        letter-spacing: 3px; }
+      #poster .image .p-overlay .d-flex i {
+        padding: 0;
+        display: inline;
+        color: #fff;
+        padding-left: 5px; }
+    #poster .image .p-overlay h4 {
+      font-weight: 700;
+      padding-top: 38%;
+      padding-left: 30%;
+      padding-right: 31%;
+      padding-bottom: 10%;
+      font-size: 40px;
+      color: #fff; }
+    #poster .image .p-overlay i {
+      padding-top: 10%;
+      padding-left: 10%;
+      padding-right: 45%;
+      display: block; }
+      #poster .image .p-overlay i h5 {
+        font-weight: 400;
+        font-size: 25px; }
+    #poster .image .p-overlay h6 {
+      font-weight: 900;
+      font-size: 25px;
+      padding-top: 10%;
+      padding-left: 24%;
+      padding-right: 10%;
+      line-height: .8;
+      padding-bottom: 50%; }
+    #poster .image .p-overlay span {
+      text-align: center;
+      display: block;
+      padding-top: 50%; }
+      #poster .image .p-overlay span p {
+        font-weight: 700;
+        color: #fff;
+        font-size: 20px; }
+      #poster .image .p-overlay span h3 {
+        font-weight: 900;
+        color: #fff; }
+  #poster .image .p-overlay:hover .d-flex {
+    opacity: 1; }
+
+#poster .sec-col {
+  margin-top: 64px; }
+
+#contact h4 {
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 3px; }
+
+#contact ul li, #contact p {
+  color: #000; }
+
+#contact ul li {
+  cursor: pointer; }
+
+#contact ul li:hover {
+  text-decoration: underline; }
+
+#contact input {
+  color: #000;
+  font-weight: 600; }
+
+#contact .reason-btn {
+  border: 2px solid #000;
+  color: #000 !important;
+  text-decoration: none;
+  padding: 2px 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  display: inline-block; }
+
+#footer a {
+  font-weight: 700; }
+
+#footer ul li i {
+  color: #999;
+  transition: all .3s ease;
+  cursor: pointer; }
+
+#footer ul li:hover i {
+  color: #000; }
+
+@media (max-width: 1199px) {
+  #content .carousel-caption {
+    right: 50%; }
+  #poster .sec-col {
+    margin-top: 54px; }
+  #poster .p-overlay .d-flex {
+    visibility: hidden; } }
+
+@media (max-width: 991px) {
+  #content .carousel-caption {
+    right: 5%; }
+  #quote .q-info {
+    width: 100%; }
+  #poster .sec-col {
+    margin-top: 40px; }
+  #poster .image .p-overlay h4 {
+    padding-left: 13%;
+    padding-top: 18%; }
+  #poster .image .p-overlay i {
+    padding-top: 0%; } }
+
+@media (max-width: 767px) {
+  #myCarousel .carousel-caption h1 {
+    font-size: 150px; }
+  #myCarousel .carousel-caption h2 {
+    font-size: 42px; }
+  #happy .col-md-6:nth-child(1),
+  #happy .col-md-6:nth-child(3) {
+    border-right: 1px solid rgba(0, 0, 0, 0.1); }
+  #happy .col-md-6:nth-child(2) {
+    border-top: none; }
+  #quote .q-info {
+    margin-top: 25%; }
+  #poster .sec-col {
+    margin-top: 0; }
+  #poster .image .p-overlay h4 {
+    padding-left: 25%;
+    padding-right: 35%;
+    padding-top: 30%; }
+  #poster .image .p-overlay i {
+    padding-top: 10%; } }
+
+@media (max-width: 575px) {
+  #myCarousel .carousel-caption h1 {
+    font-size: 100px; }
+  #myCarousel .carousel-caption h2 {
+    font-size: 28px;
+    margin-top: 0px !important; }
+  #template h2 {
+    font-size: 30px; }
+  #template h1 {
+    font-size: 25px; }
+  #content .carousel-caption h4 {
+    font-size: 25px; }
+  #content .carousel-caption p {
+    font-size: 20px; }
+  #content .carousel-item {
+    background-position: center center;
+    background-size: cover; }
+  #happy h2 {
+    font-size: 35px !important; }
+  #happy h3 {
+    font-size: 1rem; }
+  #happy a {
+    font-size: .9rem; }
+  #poster .img-fluid {
+    min-width: 100%; }
+  #poster .sec-col .row:nth-child(2) img {
+    min-width: 100%;
+    height: 350px; }
+  #poster .image .p-overlay h4 {
+    padding-left: 30%;
+    padding-top: 40%; } }
+
+@media (max-width: 480px) {
+  #quote .q-info {
+    margin-top: 35%; }
+    #quote .q-info h2 {
+      font-size: 35px; }
+  #poster h1 {
+    font-size: 30px; }
+  #poster .sec-col .row:nth-child(2) img {
+    min-width: 100%;
+    height: 300px; }
+  #poster .image .p-overlay h4 {
+    padding-left: 19%;
+    padding-top: 25%;
+    font-size: 30px; }
+  #poster .image .p-overlay i {
+    padding-right: 30%;
+    padding-top: 5%; }
+    #poster .image .p-overlay i h5 {
+      font-size: 20px; } }
+
+@media (max-width: 320px) {
+  #myCarousel .carousel-caption h1 {
+    font-size: 70px; }
+  #myCarousel .carousel-caption h2 {
+    font-size: 20px; }
+  #content .carousel-caption h4 {
+    font-size: 20px; }
+  #content .carousel-caption p {
+    font-size: 15px; }
+  #happy h2 {
+    font-size: 30px !important; }
+  #quote .q-info {
+    margin-top: 50%; }
+    #quote .q-info h2 {
+      font-size: 30px; }
+  #poster .sec-col .row:nth-child(2) img {
+    min-width: 100%;
+    height: 210px; } }
